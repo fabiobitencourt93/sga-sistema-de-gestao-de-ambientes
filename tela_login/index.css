@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+.bem-vindo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    color: #080076;
+    margin-top: -5vh;
+    position: relative;
+    top:10vh;
+}   
+
+.acesso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vh;
+    color: #080076;
+    position: relative;
+    left: -5.3vw;
+    top:2vh;    
+    scale: 0.6;
+}   
+
+.adm{
+   height: 20vh;
+   width: 15vw;
+   border-style: solid;
+   background-color: #080076;
+   border-radius: 40px;
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   scale: 0.5;
+}   
+
+.shield1{
+   height: 10vh;
+   width: 30vw;
+   color: aliceblue;
+   position:relative;
+   left: 10vw;
+   top: 2vh;  
+}
+
+.shield{
+    background-image: url(assets/shield.png);
+    background-size: cover;
+    height: 10vh;
+    width: 5vw;
+    color: aliceblue;
+    position:relative;
+    left: 12.5vw;
+    top: 2vh;
+}
+
+.coord{
+   height: 20vh;
+   width: 15vw;
+   border-style: solid;
+   background-color: #080076;
+   border-radius: 40px;
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   scale: 0.5;
+}   
+
+.paper1{
+   height: 10vh;
+   width: 30vw;
+   color: aliceblue;
+   position:relative;
+   left: 10vw;
+   top: 2vh; 
+}
+
+.paper{
+    background-image: url(assets/paper.png);
+    background-size: cover;
+    height: 10vh;
+    width: 5vw;
+    color: aliceblue;
+    position:relative;
+    left: 12.5vw;
+    top: 2vh;
+
+}
+
+.botoes{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    width: 30vw;
+    position: relative;
+    top:-5vh
+
+}
+
+.docente{
+   height: 20vh;
+   width: 15vw;
+   border-style: solid;
+   background-color: #080076;
+   border-radius: 40px;
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   scale: 0.5;
+}
+
+.doc{
+    background-image: url(assets/teacher.png);
+    background-size: cover;
+    height: 11vh;
+    width: 5vw;
+    color: aliceblue;
+    position:relative;
+    left: 12.5vw;
+    top: 2vh;
+}
+
+.prof{
+   height: 10vh;
+   width: 30vw;
+   color: aliceblue;
+   position:relative;
+   left: 12.2vw;
+   top: 1vh;
+}
+
+.sn{
+    position: relative;
+    scale: 0.7;
+    color: #080076;
+    top:-5vh
+}
+
+.id{
+    height: 10vh;
+    width: 25vw;
+    background-color: rgba(0, 7, 61, 0.582);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 5vw;
+    top: -7vh;
+}
+
+.registro{
+    height: 5vh;
+    max-width:36vh;
+    border-style: none;
+    background-color: rgba(0, 7, 61, 0);
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vh;
+    font-style: italic;
+    order:2;
+    position: relative;
+    right: 2vh;
+}
+
+.cracha{
+    background-image: url(assets/cracha.png);
+    background-size: cover;
+    height: 11vh;
+    width: 5vw;
+    position: relative;
+    left: 1vw;
+    order: 1;
+}
+
+.codigo{
+    height: 10vh;
+    width: 25vw;
+    background-color: rgba(0, 7, 61, 0.582);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    left: 5vw;
+    top:-7vh;
+}
+
+.senha{
+    height: 5vh;
+    max-width: 36vh;
+    border-style: none;
+    background-color: transparent;
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vh;
+    font-style: italic;
+    order:2;
+    position: relative;
+    left: -1vw;
+}
+
+.block{
+    background-image: url(assets/senha.png);
+    background-size: cover;
+    height: 11vh;
+    width: 5vw;
+    order: 1;
+    scale: 0.6;
+}
+
+.senha2{
+    position: relative;
+    scale: 0.7;
+    color: #080076;
+    top:-5vh
+}
+
+.entrar{
+    position: relative;
+    width: 15vw;
+    border-color: #080076;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #080076;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    left: 16vw;
+}
+
+
+.login{
+    max-width: 70%;
+    position:absolute;
+    left: 52.5%;
+    top:0vh
+    
+}
