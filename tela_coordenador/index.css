@@ -18,9 +18,11 @@ body{
 
 .pesquisa{
     height: 10vh;
-    width: 79vw;
+    width: 80vw;
     background-color: rgba(171, 206, 250, 0.788);
     margin: -2vh;
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 0vh;
     left: 20.9vw;
@@ -141,3 +143,47 @@ body{
     letter-spacing: 1px;
     gap:1vh
 }
+
+.avatar{
+    background-image: url(assets/avatar.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    top: 1vh;
+    left: 76vw;
+    height: 6vh;
+    width: 6vh;
+    border-radius: 3vw;
+}
+
+.pesquisar{
+    height: 5vh;
+    max-width:36vh;
+    padding-left: 1vh;
+    border-color: gray;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    font-style: italic;
+    order:2;
+    position: relative;
+    top:1vh;
+    left: 47vw;
+}
+
+ .settings{
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    font-style: italic;
+    order:2;
+    position: relative;
+    top:1vh;
+    left:67vw; 
+    gap:1vw;
+}
+    
