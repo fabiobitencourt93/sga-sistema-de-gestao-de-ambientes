@@ -13,6 +13,7 @@ body{
     top: 0vh;
     left: 0vw;
     position: fixed;
+    backdrop-filter: blur(5px);
 }
 
 .pesquisa{
@@ -26,6 +27,7 @@ body{
     top: 0vh;
     left: 20.9vw;
     position: fixed;
+    backdrop-filter: blur(5px);
 }
 
 .perfil{
@@ -273,7 +275,7 @@ body{
 
 .indicadores{
     display: flex;
-    background-color: rgb(159, 234, 255);
+    background-color: rgba(89, 103, 137, 0.503);
     justify-content: start;
     align-items: center;
     height: 200vh;
@@ -281,6 +283,7 @@ body{
     position: absolute;
     top:38vh;
     left: 21vw;
+    
     
 }
 

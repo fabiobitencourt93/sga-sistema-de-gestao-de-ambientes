@@ -30,6 +30,7 @@ body{
 .adm{
    height: 20vh;
    width: 15vw;
+   line-height: -2px;
    border-style: solid;
    background-color: #080076;
    border-radius: 40px;
@@ -37,6 +38,10 @@ body{
    align-items: center;
    display: grid;
    scale: 0.5;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 3vh;
 }   
 
 .shield1{
@@ -45,23 +50,22 @@ body{
    color: aliceblue;
    position:relative;
    left: 10vw;
-   top: 2vh;  
+   top: 2vh; 
 }
 
 .shield{
-    background-image: url(assets/shield.png);
-    background-size: cover;
     height: 10vh;
     width: 5vw;
-    color: aliceblue;
+    color: white;
     position:relative;
-    left: 12.5vw;
-    top: 2vh;
+    left: 3.5vh;
+    
 }
 
 .coord{
    height: 20vh;
    width: 15vw;
+   line-height: -2px;
    border-style: solid;
    background-color: #080076;
    border-radius: 40px;
@@ -69,6 +73,10 @@ body{
    align-items: center;
    display: grid;
    scale: 0.5;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 3vh;
 }   
 
 .paper1{
@@ -81,14 +89,11 @@ body{
 }
 
 .paper{
-    background-image: url(assets/paper.png);
-    background-size: cover;
     height: 10vh;
     width: 5vw;
-    color: aliceblue;
+    color: white;
     position:relative;
-    left: 12.5vw;
-    top: 2vh;
+    left: 6vh;
 
 }
 
@@ -96,15 +101,15 @@ body{
     justify-content: space-around;
     align-items: center;
     display: flex;
-    width: 30vw;
+    width:45.5vw;
     position: relative;
-    top:-5vh
-
+    top:-5vh;
 }
 
 .docente{
    height: 20vh;
    width: 15vw;
+   line-height: -2px;
    border-style: solid;
    background-color: #080076;
    border-radius: 40px;
@@ -112,27 +117,22 @@ body{
    align-items: center;
    display: grid;
    scale: 0.5;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 3vh;
 }
 
 .doc{
-    background-image: url(assets/teacher.png);
-    background-size: cover;
-    height: 11vh;
+    height: 10vh;
     width: 5vw;
-    color: aliceblue;
-    position:relative;
-    left: 12.5vw;
-    top: 2vh;
+    color: white;
+    position: relative;
+    left: 1vw;
+    
+    
 }
 
-.prof{
-   height: 10vh;
-   width: 30vw;
-   color: aliceblue;
-   position:relative;
-   left: 12.2vw;
-   top: 1vh;
-}
 
 .sn{
     position: relative;
@@ -226,17 +226,23 @@ body{
 }
 
 .entrar{
-    position: relative;
-    width: 15vw;
-    border-color: #080076;
-    border-width: 1px;
-    border-style: solid;
-    background-color: #080076;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    left: 16vw;
+   height: 15vh;
+   width: 20vw;
+   line-height: -2px;
+   border-style: solid;
+   background-color: #080076;
+   border-radius: 40px;
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   scale: 0.5;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-size: 5vh;
+   position: relative;
+   left: 16vw;
+
 }
 
 
