@@ -5,6 +5,11 @@ body{
 }
 
 
+.corpo{
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+}
 
 .coluna_menu{
     height: 130vh;
@@ -37,9 +42,12 @@ body{
 }
 
 .painel{
+    border: none;
+    outline: none;
+    cursor: pointer;
     color: white;
     padding-left: 2vh;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #080076;
     height: 5vh;
     width: 16vw;
@@ -52,12 +60,16 @@ body{
     font-size: 2vh;
     letter-spacing: 1px;
     gap:1vh
+    
 }
 
 .agendamento{
+    border: none;
+    outline: none;
+    cursor: pointer;
     color:#080076;
     padding-left: 2vh;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #08007615;
     height: 5vh;
     width: 16vw;
@@ -73,9 +85,12 @@ body{
 }
 
 .portal{
+    border: none;
+    outline: none;
+    cursor: pointer;
     color:#080076;
     padding-left: 2vh;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #08007615;
     height: 5vh;
     width: 16vw;
@@ -91,9 +106,12 @@ body{
 }
 
 .salas{
+    border: none;
+    outline: none;
+    cursor: pointer;
     color:#080076;
     padding-left: 2vh;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #08007615;
     height: 5vh;
     width: 16vw;
@@ -109,9 +127,12 @@ body{
 }
 
 .relatorios{
+    border: none;
+    outline: none;
+    cursor: pointer;
     color:#080076;
     padding-left: 2vh;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #08007615;
     height: 5vh;
     width: 16vw;
@@ -127,9 +148,12 @@ body{
 }
 
 .logout{
+    border: none;
+    outline: none;
+    cursor: pointer;
     color:#080076;
     padding-left: 2vh;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #08007615;
     height: 8vh;
     width: 8vw;
@@ -145,6 +169,9 @@ body{
 }
 
 .avatar{
+    border: none;
+    outline: none;
+    cursor: pointer;
     background-image: url(assets/avatar.png);
     background-position: center;
     background-size: cover;
@@ -176,6 +203,25 @@ body{
 }
 
  .settings{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+    font-style: italic;
+    order:2;
+    position: relative;
+    top:1vh;
+    left:66.5vw;
+}
+
+.notifications{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
     display: flex;
     align-items: center;
     font-size: 2.5vh;
@@ -184,6 +230,62 @@ body{
     position: relative;
     top:1vh;
     left:67vw; 
-    gap:1vw;
 }
+
+.alerta{
+    background-color: #28236688;
+    border-radius: 4vh;
+    position: relative;
+    top: 9.3vh;
+    left: 20.5vw;
+    height: 25vh;
+    width: 77vw;
+}
+
+.alerta-titulo{
+    color: white;
+    background-color: #080076;
+    border-radius: 3vh;
+    position: relative;
+    font-size: xx-large;
+    font-style: italic;
+    padding-left: 1vw;
+    top: 3vh;
+    left: 1vw;
+    height: 8vh;
+    width: 11.5vw;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.alerta-texto{
+    color: white;
+    background-color: transparent;
+    border-radius: 3vh;
+    position: relative;
+    font-size: larger;
+    font-style: italic;
+    line-height: 6vh;
+    top: 7vh;
+    left: 5vw;
+    height: 5vh;
+    width: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.indicadores{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: start;
+    align-items: center;
+    height: 200vh;
+    width: 76.8vw;
+    position: absolute;
+    top:38vh;
+    left: 21vw;
     
+}
