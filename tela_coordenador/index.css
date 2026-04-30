@@ -5,12 +5,6 @@ body{
 }
 
 
-.corpo{
-    display: flex;
-    justify-content: center;
-    max-width: fit-content;
-}
-
 .coluna_menu{
     height: 130vh;
     width: 20vw;
@@ -279,7 +273,7 @@ body{
 
 .indicadores{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(159, 234, 255);
     justify-content: start;
     align-items: center;
     height: 200vh;
@@ -288,4 +282,118 @@ body{
     top:38vh;
     left: 21vw;
     
+}
+
+
+
+
+
+
+
+
+
+.topo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: absolute;
+    height: 20vh;
+    width: 71.7vw;
+    top: 2vh;
+    left: 1vw;
+    padding-left:3vw ;
+    background: white;
+    border-radius: 1vh;
+}
+
+/* RESUMO */
+.resumo{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top:24vh;
+    width:74.7vw;
+    left: 2.2vh;
+    gap:2vw;
+    display: flex;
+    
+}
+
+.card{
+    flex: 1;
+    display: flex;
+    background: white;
+    padding: 2vh;
+    gap: 1vw;
+    border-radius: 1vh;
+}
+
+.card span{
+    font-size: 1.5vh;
+}
+
+.card strong{
+    font-size: 4vh;
+}
+
+/* STATUS BARRA */
+.card.ocupado{ border-left: 0.5vw solid #ff4d4d; }
+.card.livre{ border-left: 0.5vw solid #00c853; }
+.card.manutencao{ border-left: 0.5vw solid #ff9800; }
+
+.tabela-corpo{
+    position: absolute;
+    top:32.5vh;
+    left: 1vw;
+    width: auto;
+    height: auto;
+}
+
+/* TABELA */
+.tabela{
+    padding: 2vh;
+    width: 74.6vw;
+    margin: 3vh auto;
+    border-collapse: collapse;
+    background: rgb(255, 255, 255);
+    border-radius: 1vh;
+    overflow: hidden;
+}
+
+.tabela thead{
+    background: #080060;
+}
+
+.tabela th{
+    padding: 1.5vh 1vw;
+    color: white;
+    font-size: 2.2vh; /* maior para TV */
+    text-align: left;
+}
+
+.tabela td{
+    padding: 1.5vh 1vw;
+    font-size: 2.5vh; /* leitura à distância */
+}
+
+/* destaque sala */
+.tabela td:first-child{
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+/* STATUS */
+td.ocupado{
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+td.livre{
+    color: #00c853;
+    font-weight: bold;
+}
+
+td.manutencao{
+    color: #ff9800;
+    font-weight: bold;
 }
