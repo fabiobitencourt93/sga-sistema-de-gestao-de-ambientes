@@ -37,14 +37,14 @@ body{
     color: #080076;
 }
 
-.painel{
+.ambientes{
     border: none;
     outline: none;
     cursor: pointer;
-    color: white;
+    color: #080076;
     padding-left: 2vh;
     font-weight: 500;
-    background-color: #080076;
+    background-color: #08007615;
     height: 5vh;
     width: 16vw;
     display: flex;
@@ -59,14 +59,14 @@ body{
     
 }
 
-.agendamento{
+.horario{
     border: none;
     outline: none;
     cursor: pointer;
-    color:#080076;
+    color:white;
     padding-left: 2vh;
     font-weight: 500;
-    background-color: #08007615;
+    background-color: #080076;
     height: 5vh;
     width: 16vw;
     display: flex;
@@ -168,7 +168,7 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    background-image: url(assets/avatar.png);
+    background-image: url(assets/Docente.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -405,4 +405,36 @@ td.manutencao{
     position: absolute;
     top:4vh;
     left: 61vw;
+}
+
+
+
+.container{
+    position: relative;
+    top: 25vh;
+    left: 1vw;
+    width: 80vw;
+}
+
+.titulo{
+    background-color: white;
+    position: relative;
+    border-radius: 2vh;
+    height: 10vh;
+    width: 74.5vw;
+    font-size: xx-large;
+}
+
+.segunda{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    width: auto;
+}
+
+.terca{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    width: auto;
 }
