@@ -438,3 +438,31 @@ td.manutencao{
     justify-content: center;
     width: auto;
 }
+
+.quarta{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    width: auto;
+}
+
+.quinta{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    width: auto;
+}
+
+.sexta{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    width: auto;
+}
+
+.tabela{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
