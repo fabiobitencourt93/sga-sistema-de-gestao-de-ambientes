@@ -240,7 +240,7 @@ body{
 
 .alerta-titulo{
     color: white;
-    background-color: #080076;
+    background-color: #080060;
     border-radius: 3vh;
     position: relative;
     font-size: xx-large;
@@ -427,6 +427,11 @@ td.manutencao{
 
 .segunda{
     background-color: white;
+    border-radius: 5px;
+    background-color: #080060;
+    color: white;
+    border-radius: 15px;
+    width: 50vw;
     display: grid;
     justify-content: center;
     width: auto;
@@ -435,12 +440,17 @@ td.manutencao{
 .terca{
     background-color: white;
     display: grid;
+    color: white;
+    border-radius: 15px;
+    background-color:#5968b3;;
     justify-content: center;
     width: auto;
 }
 
 .quarta{
-    background-color: white;
+    background-color: #080060;
+    color: white;
+    border-radius: 15px;
     display: grid;
     justify-content: center;
     width: auto;
@@ -449,6 +459,9 @@ td.manutencao{
 .quinta{
     background-color: white;
     display: grid;
+    color: white;
+    border-radius: 15px;
+    background-color: #5968b3;
     justify-content: center;
     width: auto;
 }
@@ -456,6 +469,9 @@ td.manutencao{
 .sexta{
     background-color: white;
     display: grid;
+    background-color: #080060;
+    color: white;
+    border-radius: 15px;
     justify-content: center;
     width: auto;
 }

@@ -1,0 +1,36 @@
+@startuml
+left to right direction
+
+actor Secretaria
+actor "Coordenação" as Coordenacao
+actor Docente
+actor "Administrador BD" as AdminBD
+
+AdminBD --|> Coordenacao
+
+rectangle "Sistema de Gestão Escolar" {
+
+Secretaria --> (Cadastrar Turma)
+Secretaria --> (Consultar Sala)
+
+Coordenacao --> (Cadastrar Docente)
+Coordenacao --> (Gerenciar Horários)
+Coordenacao --> (Associar Turma/Docente/Sala)
+Coordenacao --> (Consultar Sala)
+
+Docente --> (Visualizar Turmas)
+Docente --> (Visualizar Horários)
+Docente --> (Consultar Sala)
+Docente --> (Reservar Sala)
+
+AdminBD --> (Cadastrar Ambiente)
+AdminBD --> (Alterar Ambiente)
+AdminBD --> (Consultar Sala)
+
+(Reservar Sala) .> (Consultar Sala) : <>
+(Reservar Sala) .> (Verificar Disponibilidade) : <>
+(Associar Turma/Docente/Sala) .> (Consultar Sala) : <>
+
+}
+
+@enduml
