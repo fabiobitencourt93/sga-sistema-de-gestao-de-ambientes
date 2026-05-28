@@ -17,7 +17,7 @@ body{
 }
 
 .pesquisa{
-    height: 10vh;
+    height: 12.5vh;
     width: 80vw;
     background-color: rgba(171, 206, 250, 0.788);
     margin: -2vh;
@@ -37,14 +37,14 @@ body{
     color: #080076;
 }
 
-.ambientes{
+.painel{
     border: none;
     outline: none;
     cursor: pointer;
-    color: #080076;
+    color: white;
     padding-left: 2vh;
     font-weight: 500;
-    background-color: #08007615;
+    background-color: #080076;
     height: 5vh;
     width: 16vw;
     display: flex;
@@ -59,14 +59,14 @@ body{
     
 }
 
-.horario{
+.agendamento{
     border: none;
     outline: none;
     cursor: pointer;
-    color:white;
+    color:#080076;
     padding-left: 2vh;
     font-weight: 500;
-    background-color: #080076;
+    background-color: #08007615;
     height: 5vh;
     width: 16vw;
     display: flex;
@@ -168,7 +168,7 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    background-image: url(assets/Docente.jpg);
+    background-image: url(assets/avatar.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -240,7 +240,7 @@ body{
 
 .alerta-titulo{
     color: white;
-    background-color: #080060;
+    background-color: #080076;
     border-radius: 3vh;
     position: relative;
     font-size: xx-large;
@@ -405,80 +405,4 @@ td.manutencao{
     position: absolute;
     top:4vh;
     left: 61vw;
-}
-
-
-
-.container{
-    position: relative;
-    top: 25vh;
-    left: 1vw;
-    width: 80vw;
-}
-
-.titulo{
-    background-color: white;
-    position: relative;
-    border-radius: 2vh;
-    height: 10vh;
-    width: 74.5vw;
-    font-size: xx-large;
-}
-
-.segunda{
-    background-color: white;
-    border-radius: 5px;
-    background-color: #080060;
-    color: white;
-    border-radius: 15px;
-    width: 50vw;
-    display: grid;
-    justify-content: center;
-    width: auto;
-}
-
-.terca{
-    background-color: white;
-    display: grid;
-    color: white;
-    border-radius: 15px;
-    background-color: #3758fe;
-    justify-content: center;
-    width: auto;
-}
-
-.quarta{
-    background-color: #080060;
-    color: white;
-    border-radius: 15px;
-    display: grid;
-    justify-content: center;
-    width: auto;
-}
-
-.quinta{
-    background-color: white;
-    display: grid;
-    color: white;
-    border-radius: 15px;
-    background-color: #5968b3;
-    justify-content: center;
-    width: auto;
-}
-
-.sexta{
-    background-color: white;
-    display: grid;
-    background-color: #080060;
-    color: white;
-    border-radius: 15px;
-    justify-content: center;
-    width: auto;
-}
-
-.tabela{
-    background-color: white;
-    display: flex;
-    justify-content: space-around;
-    width: auto;
 }
