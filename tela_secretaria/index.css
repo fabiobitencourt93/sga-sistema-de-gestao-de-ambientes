@@ -37,14 +37,14 @@ body{
     color: #080076;
 }
 
-.painel{
+.cadastro{
     border: none;
     outline: none;
     cursor: pointer;
-    color: white;
+    color: #080060;;
     padding-left: 2vh;
     font-weight: 500;
-    background-color: #080076;
+    background-color: #08007615;
     height: 5vh;
     width: 16vw;
     display: flex;
@@ -59,7 +59,7 @@ body{
     
 }
 
-.agendamento{
+.matriculas{
     border: none;
     outline: none;
     cursor: pointer;
@@ -80,14 +80,14 @@ body{
     gap:1vh
 }
 
-.portal{
+.relatorios{
     border: none;
     outline: none;
     cursor: pointer;
-    color:#080076;
+    color:white;
     padding-left: 2vh;
     font-weight: 500;
-    background-color: #08007615;
+    background-color: #080060;
     height: 5vh;
     width: 16vw;
     display: flex;
@@ -101,47 +101,9 @@ body{
     gap:1vh
 }
 
-.salas{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color:#080076;
-    padding-left: 2vh;
-    font-weight: 500;
-    background-color: #08007615;
-    height: 5vh;
-    width: 16vw;
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 1.5vw;
-    top:25vh;
-    border-radius: 2vh;
-    font-size: 2vh;
-    letter-spacing: 1px;
-    gap:1vh
-}
 
-.relatorios{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color:#080076;
-    padding-left: 2vh;
-    font-weight: 500;
-    background-color: #08007615;
-    height: 5vh;
-    width: 16vw;
-    display: flex;
-    align-items: center;
-    position: relative;
-    left: 1.5vw;
-    top:30vh;
-    border-radius: 2vh;
-    font-size: 2vh;
-    letter-spacing: 1px;
-    gap:1vh
-}
+
+
 
 .logout{
     border: none;
@@ -157,7 +119,7 @@ body{
     align-items: center;
     position: relative;
     left: 1.5vw;
-    top:50vh;
+    top:60vh;
     border-radius: 2vh;
     font-size: 2vh;
     letter-spacing: 1px;
@@ -329,9 +291,23 @@ body{
 }
 
 /* STATUS BARRA */
-.card.ocupado{ border-left: 0.5vw solid #ff4d4d; }
-.card.livre{ border-left: 0.5vw solid #00c853; }
-.card.manutencao{ border-left: 0.5vw solid #ff9800; }
+.cardmanutencao{
+    border-left: 0.5vw solid #ff0000;
+    background-color: white;
+    height: 10vh;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    width: 99vw;
+    padding-left: 2vw;
+    border-radius: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+
+
 
 .tabela-corpo{
     position: absolute;

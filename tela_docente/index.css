@@ -425,55 +425,63 @@ td.manutencao{
     font-size: xx-large;
 }
 
+
+
 .segunda{
     background-color: white;
     border-radius: 5px;
-    background-color: #080060;
-    color: white;
+    background-color: rgba(170, 205, 250, 0.280);
+    color:#080060;
     border-radius: 15px;
     width: 50vw;
     display: grid;
     justify-content: center;
     width: auto;
+    scale:0.9;
 }
 
 .terca{
     background-color: white;
     display: grid;
-    color: white;
+    color: #080060;
     border-radius: 15px;
-    background-color: #3758fe;
+    background-color: rgba(170, 205, 250, 0.280);
     justify-content: center;
     width: auto;
+    scale:0.9;
 }
 
 .quarta{
-    background-color: #080060;
-    color: white;
+    background-color: white;
+    color: #080060;
     border-radius: 15px;
     display: grid;
+    background-color: rgba(170, 205, 250, 0.280);
     justify-content: center;
     width: auto;
+    scale:0.9;
 }
 
 .quinta{
     background-color: white;
     display: grid;
-    color: white;
+    color: #080060;
     border-radius: 15px;
-    background-color: #5968b3;
+    background-color: rgba(170, 205, 250, 0.280);
     justify-content: center;
     width: auto;
+    scale:0.9;
 }
 
 .sexta{
     background-color: white;
     display: grid;
-    background-color: #080060;
-    color: white;
+    background-color: rgba(170, 205, 250, 0.280);
+    color: #080060;
     border-radius: 15px;
     justify-content: center;
     width: auto;
+    scale:0.9;
 }
 
 .tabela{
@@ -482,3 +490,4 @@ td.manutencao{
     justify-content: space-around;
     width: auto;
 }
+
