@@ -20,3 +20,11 @@ function atualizarRelogio() {
 // Executa a função imediatamente ao carregar e depois a cada 1 segundo
 atualizarRelogio();
 setInterval(atualizarRelogio, 1000);
+
+document.getElementById("logout").addEventListener("click", function () {
+    window.location.href = "../tela_login/index.html";
+});
+
+document.getElementById("logout").addEventListener("click", function () {
+    window.location.href = "../tela_login/index.html";
+});

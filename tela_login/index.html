@@ -28,17 +28,17 @@
     </div>
     <div class="botoes">
 
-        <button type="button" class="adm">
+        <button type="button" class="adm" id="secretaria_btn">
             <img src="assets/shield.png" class="shield">
             <span style="color: white;">SECRETARIA</span>
         </button>
 
-        <button type="button" class="coord">
+        <button type="button" class="coord" id="coord_btn">
             <img src="assets/paper.png" class="paper">
             <span style="color: white;">COORDENADOR</span>
         </button>
         
-        <button type="button" class="docente">
+        <button type="button" class="docente" id="docente_btn">
             <img src="assets/teacher.png" class="doc">
             <span style="color: white;">DOCENTE</span>
         </button>
@@ -48,6 +48,7 @@
      <article class = "id">
     
         <input class="registro" 
+        id="registro_id"
              placeholder="Digite seu número de registro" 
                 type="text"/>
    <style>
@@ -78,7 +79,7 @@
     
         <div class="block"></div>
 
-        <input class="senha" type="password" placeholder="********">
+        <input class="senha" type="password" placeholder="********" id="senha_id">
 
    <style>
         /* Estilo do campo e do texto digitado */
@@ -106,7 +107,7 @@
 
     </article>
 
-    <button type="button" class="entrar">
+    <button type="button" class="entrar" id="entrar_btn">
             <span style="color: white;">Acessar Portal</span>
         </button>
     </div>
@@ -116,5 +117,9 @@
                 
 
     <script src="index.js"></script>
+
+
+    
+</script>
 </body>
 </html>

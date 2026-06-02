@@ -251,3 +251,31 @@ body{
     top:0vh
     
 }
+
+.perfil {
+    background: #1d1b8f;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.perfil.ativo {
+    background: #00bfff;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,191,255,.5);
+}
+
+.adm, .coord, .docente {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Perfil selecionado */
+.perfil-ativo {
+    background-color: #54beff65 !important;
+    border: 3px solid rgb(0, 21, 255);
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.8);
+}
